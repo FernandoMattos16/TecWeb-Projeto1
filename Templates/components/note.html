@@ -1,0 +1,16 @@
+<div class="card">
+    <div class="card-header">
+        <form action="/delete/" method="post"> 
+            <input type="hidden" name="id" value="{id}">
+            <button type="submit" class="buttons"><img src="../../img/trash.png" alt="Apagar" class="delete-button"></button>
+        </form>
+        <form action="/edit/" method="post"> 
+            <input type="hidden" name="id" value="{id}">
+            <button type="submit" class="buttons"><img src="../../img/edit.png" alt="Editar" class="delete-button"></button>
+        </form>
+    </div>
+    <h3 class="card-title">{title}</h3>
+    <div class="card-content">
+        <p>{details}</p>
+    </div>
+</div>
